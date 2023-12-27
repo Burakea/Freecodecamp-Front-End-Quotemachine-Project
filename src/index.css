@@ -1,0 +1,114 @@
+html {
+  background-color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: purple;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: serif;
+  transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  animation: fadeIn 1000ms ease-in-out;
+  
+}
+
+.container {
+  background-color: #fff;
+  width: 500px ;
+  height: auto;
+  padding: 1rem;
+  margin: 0 auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container p {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: .5rem;
+  color: purple;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  animation: fadeIn 1000ms ease-in-out;
+}
+
+.container span{
+  font-size: 16px;
+  text-align: end;
+  padding-right: 1rem;
+  margin: 0;
+  color: purple;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  animation: fadeIn 1000ms ease-in-out;
+}
+
+.container .faQuote {
+  padding-right: .4rem;
+  color: purple;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  animation: fadeIn 1000ms ease-in-out;
+}
+
+
+.inner-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.faTwitter, .faTumblr {
+  border-radius: 5px;
+  padding: 1rem;
+  margin-left: .5rem;
+  background-color: purple;
+  color: #fff;
+  transition-property:background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+.inner-container a {
+  width: auto;
+  height: auto;
+}
+
+.inner-container button {
+  border: none;
+  background-color: purple;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100px;
+  transition-property:background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+}
+
+
+
+
+
+@keyframes fadeIn {
+ 0% {
+  opacity: 0;
+ }
+ 100%{
+  opacity: 1;
+ }
+}
